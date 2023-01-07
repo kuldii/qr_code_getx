@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81192725347",
+    "project_id": "qrcode-getx",
+    "storage_bucket": "qrcode-getx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81192725347:android:e2aaa76949a69421890156",
+        "android_client_info": {
+          "package_name": "com.kuldiiproject.qr_code"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81192725347-so5gpj67g4moqiumjgfkjo2c82rje7j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1WtKBgdevWVtuwRhqkLN9xKFphvwh_mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81192725347-so5gpj67g4moqiumjgfkjo2c82rje7j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
