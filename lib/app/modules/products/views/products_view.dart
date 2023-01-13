@@ -1,11 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-import '../../../data/models/product_model.dart';
-import '../../../routes/app_pages.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
+import '../../../data/models/product_model.dart';
+import '../../../routes/app_pages.dart';
 import '../controllers/products_controller.dart';
 
 class ProductsView extends GetView<ProductsController> {
