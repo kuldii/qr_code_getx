@@ -39,7 +39,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.detailProduct,
-      page: () => const DetailProductView(),
+      page: () => DetailProductView(),
       binding: DetailProductBinding(),
     ),
   ];

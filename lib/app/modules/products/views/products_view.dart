@@ -2,8 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:qr_code/app/data/models/product_model.dart';
-import 'package:qr_code/app/routes/app_pages.dart';
+import '../../../data/models/product_model.dart';
+import '../../../routes/app_pages.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 import '../controllers/products_controller.dart';
@@ -51,7 +51,7 @@ class ProductsView extends GetView<ProductsController> {
                 ),
                 child: InkWell(
                   onTap: () {
-                    Get.toNamed(Routes.detailProduct);
+                    Get.toNamed(Routes.detailProduct, arguments: product);
                   },
                   borderRadius: BorderRadius.circular(9),
                   child: Container(
@@ -65,7 +65,7 @@ class ProductsView extends GetView<ProductsController> {
                             children: [
                               Text(
                                 product.code,
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),

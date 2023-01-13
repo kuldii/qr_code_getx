@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:qr_code/app/controllers/auth_controller.dart';
-import 'package:qr_code/app/routes/app_pages.dart';
+import '../../../controllers/auth_controller.dart';
+import '../../../routes/app_pages.dart';
 
 import '../controllers/login_controller.dart';
 
